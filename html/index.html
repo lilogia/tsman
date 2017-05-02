@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Top Secret Management</title>
+    <script>
+    function clearAll(item) {
+      item.value = "";
+    }
+    </script>
+</head>
+<body>
+  <form>
+    Title: <input type="text" name="Title" value="URL/Item" onfocus="clearAll(this)">
+    <br>
+    Username: <input type="text" name="userName" value="Username/Question/PIN..." onfocus="clearAll(this)">
+    <br>
+    <input type="submit" name="Save">&nbsp;&nbsp;<input type="reset" name="Clear All">
+
+  </form>
+</body>
+</html>
